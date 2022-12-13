@@ -1,0 +1,50 @@
+body {
+    background-color: lightgrey;   
+}
+header{
+    width: 100%;
+    background-color: lightgrey;
+    border: solid 1px;
+    text-align: center;
+    
+    
+}
+.overall {
+    padding: 4px 5px 4px 7px;
+}
+.btns {
+    border: 1px solid;
+    padding: 4px 5px 10px 5px;
+}
+.description {
+    background-color: black;
+    color:white;
+    padding: 1px 4px 1px 10px;
+}
+main {
+    background-color: black;
+    
+}
+#store, #fight, #cave{
+    background-color: lightgrey;
+    height: 25px;
+    padding: 2px 5px 2px 5px;    
+}
+#store:hover, #fight:hover, #cave:hover {
+    cursor: pointer;
+    background-color: lightcyan;
+}
+#image{
+    background-color: black;
+}
+#fantasy {
+    display:hidden;
+}
+p {
+        color:white;
+    }
+#instructions{
+text-align: left;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+    }
